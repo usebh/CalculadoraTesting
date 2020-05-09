@@ -7,8 +7,21 @@ import org.junit.Test;
 public class RaizTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void raiztest() {
+        CalculadoraClass junit = new CalculadoraClass();
+		
+		//arrange
+		
+		float resultado;
+		
+		//act
+		
+		resultado = junit.raiz(45);
+		
+		//assert
+		
+		assertEquals(6.7082039,resultado,5);
+		
 	}
 
 }
