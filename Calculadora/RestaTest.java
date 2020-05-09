@@ -18,6 +18,8 @@ public class RestaTest {
 		
 		resultado = junit.resta(233,100);
 		
+		//assert
+		
 		assertEquals(133,resultado);
 		
 	}
