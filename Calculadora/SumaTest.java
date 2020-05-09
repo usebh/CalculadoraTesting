@@ -19,6 +19,8 @@ public class SumaTest {
 		
 		resultado = junit.suma(233,100);
 		
+	    //assert
+		
 		assertEquals(333,resultado);
 		
 	}
