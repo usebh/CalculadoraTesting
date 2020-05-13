@@ -22,5 +22,36 @@ public class DivisionTest {
 		
 		assertEquals(2,resultado);
 	}
-
+	@Test
+	public void divisiontest1() {
+        CalculadoraClass junit = new CalculadoraClass();
+		
+		//arrange
+		
+		int resultado;
+		
+		//act
+		
+		resultado = junit.division(8,-3);
+		
+		//assert
+		
+		assertEquals(-2,resultado);
+	}
+	@Test
+	public void divisiontest2() {
+        CalculadoraClass junit = new CalculadoraClass();
+		
+		//arrange
+		
+		int resultado;
+		
+		//act
+		
+		resultado = junit.division(-8,-3);
+		
+		//assert
+		
+		assertEquals(2,resultado);
+	}
 }
